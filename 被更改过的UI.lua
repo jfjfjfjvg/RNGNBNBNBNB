@@ -1242,7 +1242,7 @@ function MakeWindow(Configs)
   function AddDropdown(parent, Configs)
     local DropdownName = Configs.Name or "Dropdown!!"
     local Default = Configs.Default or "TextBox"
-    local Options = Configs.Options or {"1", "2", "3"}
+    local Options = Configs.Options or {"时间", "FPS", "生命",  "最大生命", "速度", "跳跃"}
     local Default = Configs.Default or "2"
     local Callback = Configs.Callback or function() end
     
